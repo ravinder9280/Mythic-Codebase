@@ -8,7 +8,6 @@ import {Document } from '@langchain/core/documents'
 
   
   // const apiKey = process.env.GOOGLE_GEMINI_API_KEY;
-  const apiKey = 'AIzaSyB_6uS6oYhMHSKlxon0ic7f4ikz5OHVCCA';
   if (!apiKey) {
     throw new Error("GEMINI_API_KEY is not defined");
   }
